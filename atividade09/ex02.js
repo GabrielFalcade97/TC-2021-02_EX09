@@ -67,4 +67,11 @@ console.log(arrMap);
 // ExercÃ­cio 4: use R.pipe para compor as funÃ§Ãµes: isEven, positive, isOdd, negative, 
     // isZero, e isPrime. Teste a funÃ§Ã£o composta com um Ãºnico objeto.
 
+    const pipe = R.pipe(isEven, positive, isOdd, negative, isZero, isPrime);
+
+    var aux = pipe({value: 13});
+    var aux2 = pipe({value: 0});
+    console.log(aux);
+    console.log(aux2);
+    
 // ExercÃ­cio 5: use a funÃ§Ã£o composta do Ex. 4 para transformar os nÃºmeros em 'arr'

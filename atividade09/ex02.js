@@ -73,5 +73,7 @@ console.log(arrMap);
     var aux2 = pipe({value: 0});
     console.log(aux);
     console.log(aux2);
-    
+
 // ExercÃ­cio 5: use a funÃ§Ã£o composta do Ex. 4 para transformar os nÃºmeros em 'arr'
+    var ex5 = arrMap.map(pipe);
+    console.log(ex5)
